@@ -1,0 +1,7 @@
+xdc code plus
+
+
+-플립플롭
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets q_OBUF]
+-카운터
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF]
